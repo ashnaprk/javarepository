@@ -2,7 +2,7 @@
 package polymorphism;
 
 public class Polymorphism {
-	public void add(int a,int b)
+	public void add(int a,int b)  //method overloading
 	{
 		int c=a+b;
 		System.out.println("Sum= "+c);

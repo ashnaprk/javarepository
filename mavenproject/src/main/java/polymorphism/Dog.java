@@ -9,7 +9,7 @@ public class Dog extends Animal {
 	public static void main(String[] args) {
 		Dog d=new Dog();//normal invoking of child class
 		d.sound();
-		Animal d2=new Dog(); //upcasting using polymorphism(child class is invoked)
+		Animal d2=new Dog(); //upcasting using runtime polymorphism(child class is invoked)
 		d2.sound();
 		
 

@@ -2,7 +2,7 @@ package revision;
 
 public class Encaps {
 	private int num;
-	public void num(int n)
+	public void numethod(int n)
 	{
 		num=n;
 	}
