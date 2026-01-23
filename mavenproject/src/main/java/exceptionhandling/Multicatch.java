@@ -9,7 +9,7 @@ public class Multicatch {
 		int num []=new int[3];
 		num[3]=2/0;
 	    }
-        catch(ArrayIndexOutOfBoundsException e)
+        catch(ArrayIndexOutOfBoundsException e)         //multiple catch is used
 	    {
         	System.out.println("Array index out of bound" + e);	
 	    }

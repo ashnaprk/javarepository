@@ -1,12 +1,12 @@
-package assignment;
+package collection;
 
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 
-public class ListAssignment {
-	
+public class NonGenericlist {
+
 	public static void main(String[] args) {
-		List<String> s=new LinkedList<String>(); //generic list
+		List s=new ArrayList(); //non-generic list
 		s.add("Ram");
 		s.add("Sanu");
 		s.add("Arjun");
@@ -14,7 +14,7 @@ public class ListAssignment {
 		s.add("Vivek");
 		s.add("Gopu");
 		System.out.println("Names in the List");
-		for(String name : s)                 //for each loop
+		for(Object name : s)                 //for each loop
 		{
 			System.out.println(name);
 		}
@@ -22,4 +22,7 @@ public class ListAssignment {
 
 	}
 
-}
+
+	}
+
+

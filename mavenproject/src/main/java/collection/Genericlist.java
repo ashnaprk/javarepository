@@ -1,10 +1,9 @@
-package assignment;
+package collection;
 
 import java.util.LinkedList;
 import java.util.List;
+public class Genericlist {
 
-public class ListAssignment {
-	
 	public static void main(String[] args) {
 		List<String> s=new LinkedList<String>(); //generic list
 		s.add("Ram");
@@ -22,4 +21,7 @@ public class ListAssignment {
 
 	}
 
-}
+
+	}
+
+

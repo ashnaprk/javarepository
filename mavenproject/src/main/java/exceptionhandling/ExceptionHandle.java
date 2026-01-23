@@ -13,7 +13,7 @@ public class ExceptionHandle {
 		{                   // here its Arithmetic exception
 			System.out.println(e);
 		}
-		finally             //finally will work in any case
+		finally             //"finally" will work in any case
 		{
 			System.out.println("finally block executed");
 		}
