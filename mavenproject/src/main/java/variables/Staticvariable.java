@@ -7,6 +7,8 @@ public class Staticvariable {
 	public static void main(String[] args) {
 		System.out.println(id);
 		
+		System.out.println(Staticvariable.id);
+		
 
 	}
 
